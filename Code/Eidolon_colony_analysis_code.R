@@ -1479,4 +1479,4 @@ plot_grid(SuppFigSegInfa + xlab("Day") + theme_cowplot(font_size = 10),
           SuppFigRelCounta + theme_cowplot(font_size = 10),
           SuppFigCIGa + theme_cowplot(font_size = 10),
           ncol = 2, nrow = 2, align = "hv")
-ggsave("Results/graphical_abstract.png", height = 8, width = 8, units = "in", dpi = 300, bg = "white")
+ggsave("Results/graphical_abstract.pdf", height = 8, width = 8, units = "in", bg = "white")
