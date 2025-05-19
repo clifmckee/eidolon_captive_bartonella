@@ -228,7 +228,7 @@ ggplot(data = CI_join, aes(x = Day, y = prev.mean, color = Group)) +
                    "Nov 10", "Mar 11", "Jul 11", "Jan 12", "", "", "Mar 12"),
            angle = 45, size = c(rep(2, 10), 2.25, rep(2, 3)), fontface = c(rep(1, 10), 2, rep(1, 3))) +
   scale_color_colorblind(name = "Group") +
-  scale_x_continuous(name = "", limits = c(-5, 1005), breaks = seq(0, 1000, 250)) +
+  scale_x_continuous(name = "Day", limits = c(-5, 1005), breaks = seq(0, 1000, 250)) +
   scale_y_continuous(name = "Prevalence", breaks = seq(0, 1, 0.25), limits = c(-0.05, 1)) +
   theme_cowplot()
 ggsave("Results/Fig_prevalence.png", height =  3.5, width = 8, units = "in", dpi = 300, bg = "white")
@@ -455,7 +455,7 @@ SuppFigRelCounta <- ggplot(data=m.rel.count, aes(x=Day, y=value, fill=variable))
                      "Nov 10", "Mar 11", "Jul 11", "Jan 12", "", "", "Mar 12"),
            angle = 45, size = c(rep(2, 10), 2.25, rep(2, 3)), fontface = c(rep(1, 10), 2, rep(1, 3))) +
   scale_fill_colorblind(name = "Species") +
-  scale_x_continuous(name = "Date", breaks = seq(0, 1000, 250)) +
+  scale_x_continuous(name = "Day", breaks = seq(0, 1000, 250)) +
   scale_y_continuous(name = "Relative counts", breaks = seq(0, 1, 0.25)) +
   theme_cowplot()
 
@@ -993,7 +993,7 @@ ggplot(data = inf_join, aes(x = Day, y = Markers, color = Group)) +
            angle = 45, size = c(rep(2, 10), 2.25, rep(2, 3)), fontface = c(rep(1, 10), 2, rep(1, 3))) +
   scale_color_colorblind(name = "Group") +
   scale_size_area(name="Counts", breaks = c(1, 10, 20)) +
-  scale_x_continuous(name = "", limits = c(-5, 1005), breaks = seq(0, 1000, 250)) +
+  scale_x_continuous(name = "Day", limits = c(-5, 1005), breaks = seq(0, 1000, 250)) +
   scale_y_continuous(name = "Positive markers", breaks = seq(0, 4, 1)) +
   theme_cowplot()
 ggsave("Results/SuppFig_markers.png", height=3.5, width=7, units="in", dpi=300, bg = "white")
@@ -1060,10 +1060,11 @@ pred1 <- data.frame(cbind(xweight1, yweight1))
   geom_point(data=data.frame(x=breaks1[,1], y=-0.1), aes(x=x, y=y), shape=15, size=3, alpha=0.8, color="grey60") +
   scale_colour_manual(values=c("grey60", "grey40", "grey20", "grey0"),
                       name="Positive\nmarkers", labels=c("1", "2", "3", "4")) +
-  xlab("") +
+  xlab("Day") +
   scale_y_continuous(name = "Prevalence", limits = c(-0.1, 1), breaks = seq(0, 1, 0.25)) +
   theme_cowplot() +
-  coord_cartesian(xlim = c(-5, 1005)))
+  coord_cartesian(xlim = c(-5, 1005)) +
+  theme(axis.title.x = element_blank()))
 
 # Perform regression and segmented regression
 # Join data and filter RT-PCR data to remove negative results
@@ -1097,7 +1098,8 @@ pred2 <- data.frame(cbind(xweight2, yweight2))
     xlab("") +
     scale_y_reverse(name = "Ct value", breaks = seq(45, 20, -5)) +
     theme_cowplot() +
-    coord_cartesian(xlim = c(-5, 1005)))
+    coord_cartesian(xlim = c(-5, 1005)) +
+    theme(axis.title.x = element_blank()))
 
 # Co-infections
 mixed.pos <- c(4, 3, 24, 17, 7, 7, 5, 7, 0, 2, 7, 11, 8, 12)
@@ -1173,7 +1175,7 @@ SuppFigCorra <- ggplot(data=bat.cor, aes(x=Day, y=R2, group=1)) +
                   aes(x=Day, y=Estimate, ymin=R2lower, ymax=R2upper), shape = 20, alpha=0.8) +
   theme_cowplot() +
   ylim(0.7, 1) +
-  xlab("Date") +
+  xlab("Day") +
   ylab(bquote(R^2))
 
 # Read in fly count data
@@ -1471,3 +1473,10 @@ plot(inf.dat$NumSpecies, inf.dat$Markers)
 lines(mark.Numsp.xweight, mark.Numsp.yweight, col="red")
 data.frame(plyr::ddply(inf.dat, ~NumSpecies, summarise, mean=mean(Markers), median=median(Markers)))
 
+# GRAPHICAL ABSTRACT ------------------------------------------------------
+
+plot_grid(SuppFigSegInfa + xlab("Day") + theme_cowplot(font_size = 10),
+          SuppFigRelCounta + theme_cowplot(font_size = 10),
+          SuppFigCIGa + theme_cowplot(font_size = 10),
+          ncol = 2, nrow = 2, align = "hv")
+ggsave("Results/graphical_abstract.png", height = 8, width = 8, units = "in", dpi = 300, bg = "white")
