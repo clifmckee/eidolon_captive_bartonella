@@ -1,0 +1,263 @@
+IQ-TREE 2.1.1 COVID-edition built Aug 20 2020
+
+Input file name: C:\iqtree-2.1.1-Windows\bin\Bartonella_ftsZ_sequences_MAFFT-L-INS-i_GB.fasta
+Type of analysis: ModelFinder + tree reconstruction + ultrafast bootstrap (1000 replicates)
+Random seed number: 978971
+
+REFERENCES
+----------
+
+To cite IQ-TREE please use:
+
+Bui Quang Minh, Heiko A. Schmidt, Olga Chernomor, Dominik Schrempf,
+Michael D. Woodhams, Arndt von Haeseler, and Robert Lanfear (2020)
+IQ-TREE 2: New models and efficient methods for phylogenetic inference
+in the genomic era. Mol. Biol. Evol., in press.
+https://doi.org/10.1093/molbev/msaa015
+
+To cite ModelFinder please use: 
+
+Subha Kalyaanamoorthy, Bui Quang Minh, Thomas KF Wong, Arndt von Haeseler,
+and Lars S Jermiin (2017) ModelFinder: Fast model selection for
+accurate phylogenetic estimates. Nature Methods, 14:587–589.
+https://doi.org/10.1038/nmeth.4285
+
+Since you used ultrafast bootstrap (UFBoot) please also cite: 
+
+Diep Thi Hoang, Olga Chernomor, Arndt von Haeseler, Bui Quang Minh,
+and Le Sy Vinh (2018) UFBoot2: Improving the ultrafast bootstrap
+approximation. Mol. Biol. Evol., 35:518–522.
+https://doi.org/10.1093/molbev/msx281
+
+SEQUENCE ALIGNMENT
+------------------
+
+Input data: 23 sequences with 727 nucleotide sites
+Number of constant sites: 435 (= 59.8349% of all sites)
+Number of invariant (constant or ambiguous constant) sites: 435 (= 59.8349% of all sites)
+Number of parsimony informative sites: 228
+Number of distinct site patterns: 288
+
+ModelFinder
+-----------
+
+Best-fit model according to AICc: TVM+F+I+G4
+
+List of models sorted by AICc scores: 
+
+Model                  LogL         AIC      w-AIC        AICc     w-AICc         BIC      w-BIC
+TVM+F+I+G4        -4305.841    8715.681 +    0.594    8723.859 +    0.581    8954.305 -   0.0243
+GTR+F+I+G4        -4305.757    8717.515 +    0.237    8726.020 +    0.197    8960.728 -  0.00098
+TPM2u+F+I+G4      -4310.188    8720.376 +   0.0568    8727.920 +   0.0763    8949.822 +    0.229
+TPM2+F+I+G4       -4310.188    8720.376 +   0.0568    8727.920 +   0.0763    8949.822 +    0.229
+TIM2+F+I+G4       -4310.102    8722.205 -   0.0227    8730.063 -   0.0261    8956.240 -  0.00924
+SYM+I+G4          -4311.308    8722.616 -   0.0185    8730.160 -   0.0249    8952.062 +   0.0747
+TVMe+I+G4         -4312.917    8723.835 -   0.0101    8731.072 -   0.0158    8948.692 +    0.403
+GTR+F+R4          -4306.370    8726.741 -  0.00235    8736.624 - 0.000983    8988.309 - 1.01e-09
+GTR+F+R5          -4304.673    8727.347 -  0.00174    8737.962 - 0.000504    8998.094 - 7.54e-12
+TIM3e+I+G4        -4319.090    8734.181 - 5.71e-05    8741.119 - 0.000104    8954.449 -   0.0226
+GTR+F+G4          -4315.332    8734.665 - 4.48e-05    8742.843 - 4.39e-05    8973.289 - 1.84e-06
+HKY+F+I+G4        -4319.417    8736.833 - 1.51e-05    8744.071 - 2.37e-05    8961.691 - 0.000606
+TIM2e+I+G4        -4321.021    8738.043 - 8.27e-06    8744.981 - 1.51e-05    8958.311 -  0.00328
+TPM3u+F+I+G4      -4318.826    8737.652 - 1.01e-05    8745.197 - 1.35e-05    8967.099 - 4.05e-05
+TPM3+F+I+G4       -4318.826    8737.652 - 1.01e-05    8745.197 - 1.35e-05    8967.099 - 4.05e-05
+TN+F+I+G4         -4319.258    8738.516 - 6.53e-06    8746.060 - 8.78e-06    8967.962 - 2.63e-05
+K3Pu+F+I+G4       -4319.389    8738.778 - 5.73e-06    8746.322 -  7.7e-06    8968.224 - 2.31e-05
+TIM3+F+I+G4       -4318.657    8739.313 - 4.38e-06    8747.171 - 5.04e-06    8973.348 - 1.78e-06
+TIM+F+I+G4        -4319.247    8740.494 - 2.43e-06    8748.352 - 2.79e-06    8974.529 - 9.87e-07
+TNe+I+G4          -4325.137    8744.274 - 3.67e-07    8750.919 - 7.74e-07    8959.954 -  0.00144
+TIMe+I+G4         -4325.098    8746.196 -  1.4e-07    8753.134 - 2.56e-07    8966.464 - 5.57e-05
+K2P+I+G4          -4328.020    8748.040 - 5.58e-08    8754.399 - 1.36e-07    8959.131 -  0.00218
+K3P+I+G4          -4327.989    8749.979 - 2.12e-08    8756.624 - 4.46e-08    8965.658 - 8.33e-05
+GTR+F+I           -4341.034    8786.068 - 3.08e-16    8794.246 - 3.02e-16    9024.692 - 1.26e-17
+GTR+F+R3          -4340.892    8791.784 - 1.77e-17    8800.964 - 1.05e-17    9044.175 - 7.43e-22
+GTR+F+R2          -4374.615    8855.229 - 2.96e-31    8863.735 - 2.46e-31    9098.443 - 1.22e-33
+JC+I+G4           -4505.164    9100.329 - 1.77e-84    9106.408 - 4.95e-84    9306.831 - 6.86e-79
+F81+F+I+G4        -4522.284    9140.569 - 3.24e-93    9147.507 -  5.9e-93    9360.837 - 1.28e-90
+GTR+F             -4768.420    9638.840 - 2.05e-201    9646.697 - 2.36e-201    9872.875 - 8.34e-202
+
+AIC, w-AIC   : Akaike information criterion scores and weights.
+AICc, w-AICc : Corrected AIC scores and weights.
+BIC, w-BIC   : Bayesian information criterion scores and weights.
+
+Plus signs denote the 95% confidence sets.
+Minus signs denote significant exclusion.
+
+SUBSTITUTION PROCESS
+--------------------
+
+Model of substitution: TVM+F+I+G4
+
+Rate parameter R:
+
+  A-C: 2.0762
+  A-G: 7.9982
+  A-T: 1.7482
+  C-G: 0.0001
+  C-T: 7.9982
+  G-T: 1.0000
+
+State frequencies: (empirical counts from alignment)
+
+  pi(A) = 0.236
+  pi(C) = 0.1816
+  pi(G) = 0.289
+  pi(T) = 0.2934
+
+Rate matrix Q:
+
+  A    -1.264    0.1488    0.9127    0.2025
+  C    0.1934     -1.12  1.141e-05    0.9265
+  G    0.7451  7.169e-06    -0.861    0.1158
+  T    0.1629    0.5734    0.1141   -0.8504
+
+Model of rate heterogeneity: Invar+Gamma with 4 categories
+Proportion of invariable sites: 0.5365
+Gamma shape alpha: 1.151
+
+ Category  Relative_rate  Proportion
+  0         0              0.5365
+  1         0.3582         0.1159
+  2         1.117          0.1159
+  3         2.203          0.1159
+  4         4.952          0.1159
+Relative rates are computed as MEAN of the portion of the Gamma distribution falling in the category.
+
+MAXIMUM LIKELIHOOD TREE
+-----------------------
+
+Log-likelihood of the tree: -4305.7611 (s.e. 150.4439)
+Unconstrained log-likelihood (without tree): -2914.3432
+Number of free parameters (#branches + #model parameters): 52
+Akaike information criterion (AIC) score: 8715.5222
+Corrected Akaike information criterion (AICc) score: 8723.7003
+Bayesian information criterion (BIC) score: 8954.1464
+
+Total tree length (sum of branch lengths): 2.4781
+Sum of internal branch lengths: 0.7623 (30.7611% of tree length)
+
+WARNING: 8 near-zero internal branches (<0.0014) should be treated with caution
+         Such branches are denoted by '**' in the figure below
+
+NOTE: Tree is UNROOTED although outgroup taxon 'B._apis_BBC0122_NZ_CP015625' is drawn at root
+Numbers in parentheses are  ultrafast bootstrap support (%)
+
++--------------B._apis_BBC0122_NZ_CP015625
+|
+|                    +------------------B._tamiae_Th239_NZ_JH725147
++--------------------| (99)
+|                    |                          +--B._sp._Eidolon.helvum_E1-105_HM363770
+|                    |                       +--| (83)
+|                    |                       |  |  +--B._sp._Eidolon.helvum_E2-114_HM363771
+|                    |                       |  +--| (92)
+|                    |                       |     +--B._sp._Eidolon.helvum_E5_B40014_KJ999689
+|                    |                    +--| (38)
+|                    |                    |  |                       +**B._sp._Eidolon.helvum_Eh6-0110-R117
+|                    |                    |  |                    +**| (39)
+|                    |                    |  |                    |  |     +**B._sp._Eidolon.helvum_Eh6-0510-A110
+|                    |                    |  |                    |  |  +**| (72)
+|                    |                    |  |                    |  |  |  +**B._sp._Eidolon.helvum_Eh6-0510-A106
+|                    |                    |  |                    |  +**| (32)
+|                    |                    |  |                    |     |        +**B._sp._Eidolon.helvum_Eh6-170112-D086
+|                    |                    |  |                    |     |     +**| (25)
+|                    |                    |  |                    |     |     |  +--B._sp._Eidolon.helvum_Eh6-170112-D094
+|                    |                    |  |                    |     |  +**| (20)
+|                    |                    |  |                    |     |  |  +--B._sp._Eidolon.helvum_Eh6-0110-R12
+|                    |                    |  |                    |     +**| (37)
+|                    |                    |  |                    |        +**B._sp._Eidolon.helvum_Eh6-170112-D053
+|                    |                    |  |                 +--| (76)
+|                    |                    |  |                 |  |  +**B._sp._Eidolon.helvum_Eh6-1109-Q135
+|                    |                    |  |                 |  +**| (44)
+|                    |                    |  |                 |     |  +--B._sp._Eidolon.helvum_Eh6-1109-Q131
+|                    |                    |  |                 |     +**| (50)
+|                    |                    |  |                 |        +**B._sp._Eidolon.helvum_Eh6-0110-R70
+|                    |                    |  |              +--| (92)
+|                    |                    |  |              |  +--B._sp._Eidolon.helvum_Eh6-0110-R35
+|                    |                    |  +--------------| (100)
+|                    |                    |                 +**B._sp._Eidolon.helvum_Eh6-0110-R4
+|                    |                 +--| (34)
+|                    |                 |  +------B._sp._Eidolon.helvum_Ew-111_HM363773
+|                    |              +--| (47)
+|                    |              |  |  +------B._sp._Eidolon.helvum_E4_B39301_KJ999687
+|                    |              |  +--| (59)
+|                    |              |     |  +------------B._sp._Eidolon.helvum_Eh7-0110-R89
+|                    |              |     +--| (57)
+|                    |              |        +---------------B._sp._Eidolon.helvum_Eh7-0110-R16
+|                    +--------------| (97)
+|                                   +--------B._sp._Eidolon.helvum_E3-106_HM363772
+|
++--------------------------------------------Brucella_abortus_Biovar-3_Tulya_NZ_DS999886
+
+Tree in newick format:
+
+(B._apis_BBC0122_NZ_CP015625:0.1816648153,(B._tamiae_Th239_NZ_JH725147:0.2328674735,(((((B._sp._Eidolon.helvum_E1-105_HM363770:0.0425680111,(B._sp._Eidolon.helvum_E2-114_HM363771:0.0421717974,B._sp._Eidolon.helvum_E5_B40014_KJ999689:0.0281642326)92:0.0143516287)83:0.0210261710,((((B._sp._Eidolon.helvum_Eh6-0110-R117:0.0000009980,((B._sp._Eidolon.helvum_Eh6-0510-A110:0.0000009980,B._sp._Eidolon.helvum_Eh6-0510-A106:0.0000009980)72:0.0000009980,(((B._sp._Eidolon.helvum_Eh6-170112-D086:0.0000009980,B._sp._Eidolon.helvum_Eh6-170112-D094:0.0014015130)25:0.0000009980,B._sp._Eidolon.helvum_Eh6-0110-R12:0.0029360464)20:0.0000009980,B._sp._Eidolon.helvum_Eh6-170112-D053:0.0000009980)37:0.0000009980)32:0.0000009980)39:0.0000009980,(B._sp._Eidolon.helvum_Eh6-1109-Q135:0.0000009980,(B._sp._Eidolon.helvum_Eh6-1109-Q131:0.0014349455,B._sp._Eidolon.helvum_Eh6-0110-R70:0.0008522755)50:0.0005541334)44:0.0000009980)76:0.0013934516,B._sp._Eidolon.helvum_Eh6-0110-R35:0.0088097851)92:0.0074684683,B._sp._Eidolon.helvum_Eh6-0110-R4:0.0000009980)100:0.1874614470)38:0.0125174340,B._sp._Eidolon.helvum_Ew-111_HM363773:0.0873594650)34:0.0094277484,(B._sp._Eidolon.helvum_E4_B39301_KJ999687:0.0825979277,(B._sp._Eidolon.helvum_Eh7-0110-R89:0.1627764833,B._sp._Eidolon.helvum_Eh7-0110-R16:0.1980694858)57:0.0272085624)59:0.0281202692)47:0.0168259555,B._sp._Eidolon.helvum_E3-106_HM363772:0.1107393273)97:0.1843976300)99:0.2515391435,Brucella_abortus_Biovar-3_Tulya_NZ_DS999886:0.5314059298);
+
+CONSENSUS TREE
+--------------
+
+Consensus tree is constructed from 1000 bootstrap trees
+Log-likelihood of consensus tree: -4305.770922
+Robinson-Foulds distance between ML tree and consensus tree: 4
+
+Branches with support >0.000000% are kept (extended consensus)
+Branch lengths are optimized by maximum likelihood on original alignment
+Numbers in parentheses are bootstrap supports (%)
+
++--------------B._apis_BBC0122_NZ_CP015625
+|
+|                    +------------------B._tamiae_Th239_NZ_JH725147
++--------------------| (99)
+|                    |                          +--B._sp._Eidolon.helvum_E1-105_HM363770
+|                    |                       +--| (83)
+|                    |                       |  |  +--B._sp._Eidolon.helvum_E2-114_HM363771
+|                    |                       |  +--| (92)
+|                    |                       |     +--B._sp._Eidolon.helvum_E5_B40014_KJ999689
+|                    |                    +--| (38)
+|                    |                    |  |                       +--B._sp._Eidolon.helvum_Eh6-0110-R117
+|                    |                    |  |                    +--| (39)
+|                    |                    |  |                    |  |     +--B._sp._Eidolon.helvum_Eh6-0510-A110
+|                    |                    |  |                    |  |  +--| (72)
+|                    |                    |  |                    |  |  |  +--B._sp._Eidolon.helvum_Eh6-0510-A106
+|                    |                    |  |                    |  +--| (32)
+|                    |                    |  |                    |     |     +--B._sp._Eidolon.helvum_Eh6-170112-D086
+|                    |                    |  |                    |     |  +--| (30)
+|                    |                    |  |                    |     |  |  |  +--B._sp._Eidolon.helvum_Eh6-170112-D094
+|                    |                    |  |                    |     |  |  +--| (30)
+|                    |                    |  |                    |     |  |     +--B._sp._Eidolon.helvum_Eh6-170112-D053
+|                    |                    |  |                    |     +--| (37)
+|                    |                    |  |                    |        +--B._sp._Eidolon.helvum_Eh6-0110-R12
+|                    |                    |  |                 +--| (76)
+|                    |                    |  |                 |  |  +--B._sp._Eidolon.helvum_Eh6-1109-Q135
+|                    |                    |  |                 |  +--| (44)
+|                    |                    |  |                 |     |  +--B._sp._Eidolon.helvum_Eh6-1109-Q131
+|                    |                    |  |                 |     +--| (50)
+|                    |                    |  |                 |        +--B._sp._Eidolon.helvum_Eh6-0110-R70
+|                    |                    |  |              +--| (92)
+|                    |                    |  |              |  +--B._sp._Eidolon.helvum_Eh6-0110-R35
+|                    |                    |  +--------------| (100)
+|                    |                    |                 +--B._sp._Eidolon.helvum_Eh6-0110-R4
+|                    |                 +--| (34)
+|                    |                 |  +------B._sp._Eidolon.helvum_Ew-111_HM363773
+|                    |              +--| (47)
+|                    |              |  |  +------B._sp._Eidolon.helvum_E4_B39301_KJ999687
+|                    |              |  +--| (59)
+|                    |              |     |  +------------B._sp._Eidolon.helvum_Eh7-0110-R89
+|                    |              |     +--| (57)
+|                    |              |        +---------------B._sp._Eidolon.helvum_Eh7-0110-R16
+|                    +--------------| (97)
+|                                   +--------B._sp._Eidolon.helvum_E3-106_HM363772
+|
++--------------------------------------------Brucella_abortus_Biovar-3_Tulya_NZ_DS999886
+
+
+Consensus tree in newick format: 
+
+(B._apis_BBC0122_NZ_CP015625:0.1817808011,(B._tamiae_Th239_NZ_JH725147:0.2329178350,(((((B._sp._Eidolon.helvum_E1-105_HM363770:0.0425811358,(B._sp._Eidolon.helvum_E2-114_HM363771:0.0421803059,B._sp._Eidolon.helvum_E5_B40014_KJ999689:0.0281648709)92:0.0143523896)83:0.0210038521,((((B._sp._Eidolon.helvum_Eh6-0110-R117:0.0000023446,((B._sp._Eidolon.helvum_Eh6-0510-A110:0.0000023446,B._sp._Eidolon.helvum_Eh6-0510-A106:0.0000023446)72:0.0000023446,((B._sp._Eidolon.helvum_Eh6-170112-D086:0.0000023446,(B._sp._Eidolon.helvum_Eh6-170112-D094:0.0000912938,B._sp._Eidolon.helvum_Eh6-170112-D053:0.0000023446)30:0.0000023446)30:0.0000023446,B._sp._Eidolon.helvum_Eh6-0110-R12:0.0029366888)37:0.0013083866)32:0.0000023446)39:0.0000023446,(B._sp._Eidolon.helvum_Eh6-1109-Q135:0.0000023446,(B._sp._Eidolon.helvum_Eh6-1109-Q131:0.0014364144,B._sp._Eidolon.helvum_Eh6-0110-R70:0.0012975961)50:0.0000212546)44:0.0000882189)76:0.0013937387,B._sp._Eidolon.helvum_Eh6-0110-R35:0.0088117073)92:0.0074698919,B._sp._Eidolon.helvum_Eh6-0110-R4:0.0000026935)100:0.1875135571)38:0.0125143335,B._sp._Eidolon.helvum_Ew-111_HM363773:0.0873523096)34:0.0093977232,(B._sp._Eidolon.helvum_E4_B39301_KJ999687:0.0825821597,(B._sp._Eidolon.helvum_Eh7-0110-R89:0.1627730658,B._sp._Eidolon.helvum_Eh7-0110-R16:0.1980366771)57:0.0272437269)59:0.0281408166)47:0.0169780980,B._sp._Eidolon.helvum_E3-106_HM363772:0.1106064555)97:0.1842643949)99:0.2514682768,Brucella_abortus_Biovar-3_Tulya_NZ_DS999886:0.5313571975);
+
+TIME STAMP
+----------
+
+Date and time: Sun Oct 04 11:52:49 2020
+Total CPU time used: 13.953125 seconds (0h:0m:13s)
+Total wall-clock time used: 15.1809614 seconds (0h:0m:15s)
+

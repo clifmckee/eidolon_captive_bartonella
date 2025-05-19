@@ -1,0 +1,209 @@
+IQ-TREE multicore version 2.1.1 COVID-edition for Windows 64-bit built Aug 20 2020
+Developed by Bui Quang Minh, James Barbetti, Nguyen Lam Tung,
+Olga Chernomor, Heiko Schmidt, Dominik Schrempf, Michael Woodhams.
+
+Host:    DESKTOP-7HQB3DG (AVX2, FMA3, 7 GB RAM)
+Command: iqtree2 -s C:\iqtree-2.1.1-Windows\bin\Bartonella_ftsZ_sequences_MAFFT-L-INS-i_GB.fasta -m MFP -AICc -B 1000
+Seed:    978971 (Using SPRNG - Scalable Parallel Random Number Generator)
+Time:    Sun Oct 04 11:52:31 2020
+Kernel:  AVX+FMA - 1 threads (4 CPU cores detected)
+
+HINT: Use -nt option to specify number of threads because your CPU has 4 cores!
+HINT: -nt AUTO will automatically determine the best number of threads to use.
+
+Reading alignment file C:\iqtree-2.1.1-Windows\bin\Bartonella_ftsZ_sequences_MAFFT-L-INS-i_GB.fasta ... Fasta format detected
+Alignment most likely contains DNA/RNA sequences
+Alignment has 23 sequences with 727 columns, 288 distinct patterns
+228 parsimony-informative, 64 singleton sites, 435 constant sites
+                                             Gap/Ambiguity  Composition  p-value
+   1  B._apis_BBC0122_NZ_CP015625                    0.00%    failed      0.01%
+   2  B._tamiae_Th239_NZ_JH725147                    0.00%    passed     96.58%
+   3  B._sp._Eidolon.helvum_E1-105_HM363770          5.91%    passed     20.51%
+   4  B._sp._Eidolon.helvum_E2-114_HM363771          0.00%    passed     83.93%
+   5  B._sp._Eidolon.helvum_E5_B40014_KJ999689       0.00%    passed     18.23%
+   6  B._sp._Eidolon.helvum_Ew-111_HM363773          0.00%    passed     64.36%
+   7  B._sp._Eidolon.helvum_E4_B39301_KJ999687       0.00%    passed     38.24%
+   8  B._sp._Eidolon.helvum_E3-106_HM363772          0.00%    passed     93.25%
+   9  B._sp._Eidolon.helvum_Eh6-0110-R117            0.55%    passed     96.09%
+  10  B._sp._Eidolon.helvum_Eh6-0510-A110            0.00%    passed     94.57%
+  11  B._sp._Eidolon.helvum_Eh6-1109-Q135            1.51%    passed     94.01%
+  12  B._sp._Eidolon.helvum_Eh6-0510-A106            0.00%    passed     94.57%
+  13  B._sp._Eidolon.helvum_Eh6-170112-D086          1.24%    passed     97.54%
+  14  B._sp._Eidolon.helvum_Eh6-170112-D094          0.55%    passed     96.59%
+  15  B._sp._Eidolon.helvum_Eh6-1109-Q131            2.48%    passed     94.43%
+  16  B._sp._Eidolon.helvum_Eh6-0110-R70             1.24%    passed     96.69%
+  17  B._sp._Eidolon.helvum_Eh6-0110-R12             3.44%    passed     95.01%
+  18  B._sp._Eidolon.helvum_Eh6-170112-D053          6.05%    passed     96.59%
+  19  B._sp._Eidolon.helvum_Eh6-0110-R4              5.23%    passed     87.90%
+  20  B._sp._Eidolon.helvum_Eh6-0110-R35             2.48%    passed     87.33%
+  21  B._sp._Eidolon.helvum_Eh7-0110-R89             0.69%    passed     79.38%
+  22  B._sp._Eidolon.helvum_Eh7-0110-R16             0.00%    passed     90.62%
+  23  Brucella_abortus_Biovar-3_Tulya_NZ_DS999886    0.00%    failed      0.00%
+****  TOTAL                                          1.36%  2 sequences failed composition chi2 test (p-value<5%; df=3)
+NOTE: B._sp._Eidolon.helvum_Eh6-0510-A106 is identical to B._sp._Eidolon.helvum_Eh6-0510-A110 but kept for subsequent analysis
+
+
+Create initial parsimony tree by phylogenetic likelihood library (PLL)... 0.008 seconds
+Perform fast likelihood tree search using GTR+I+G model...
+Estimate model parameters (epsilon = 5.000)
+Perform nearest neighbor interchange...
+Estimate model parameters (epsilon = 1.000)
+1. Initial log-likelihood: -4312.537
+Optimal log-likelihood: -4312.203
+Rate parameters:  A-C: 2.03112  A-G: 7.38336  A-T: 1.74537  C-G: 0.00010  C-T: 8.94242  G-T: 1.00000
+Base frequencies:  A: 0.236  C: 0.182  G: 0.289  T: 0.293
+Proportion of invariable sites: 0.321
+Gamma shape alpha: 0.398
+Parameters optimization took 1 rounds (0.045 sec)
+Time for fast ML tree search: 0.226 seconds
+
+NOTE: ModelFinder requires 3 MB RAM!
+ModelFinder will test up to 286 DNA models (sample size: 727) ...
+ No. Model         -LnL         df  AIC          AICc         BIC
+  1  GTR+F         4768.420     51  9638.840     9646.697     9872.875
+  2  GTR+F+I       4341.034     52  8786.068     8794.246     9024.692
+  3  GTR+F+G4      4315.332     52  8734.665     8742.843     8973.289
+  4  GTR+F+I+G4    4305.757     53  8717.515     8726.020     8960.728
+  5  GTR+F+R2      4374.615     53  8855.229     8863.735     9098.443
+  6  GTR+F+R3      4340.892     55  8791.784     8800.964     9044.175
+  7  GTR+F+R4      4306.370     57  8726.741     8736.624     8988.309
+  8  GTR+F+R5      4304.673     59  8727.347     8737.962     8998.094
+ 17  SYM+I+G4      4311.308     50  8722.616     8730.160     8952.062
+ 30  TVM+F+I+G4    4305.841     52  8715.681     8723.859     8954.305
+ 43  TVMe+I+G4     4312.917     49  8723.835     8731.072     8948.692
+ 56  TIM3+F+I+G4   4318.657     51  8739.313     8747.171     8973.348
+ 69  TIM3e+I+G4    4319.090     48  8734.181     8741.119     8954.449
+ 82  TIM2+F+I+G4   4310.102     51  8722.205     8730.063     8956.240
+ 95  TIM2e+I+G4    4321.021     48  8738.043     8744.981     8958.311
+108  TIM+F+I+G4    4319.247     51  8740.494     8748.352     8974.529
+121  TIMe+I+G4     4325.098     48  8746.196     8753.134     8966.464
+134  TPM3u+F+I+G4  4318.826     50  8737.652     8745.197     8967.099
+147  TPM3+F+I+G4   4318.826     50  8737.652     8745.197     8967.099
+160  TPM2u+F+I+G4  4310.188     50  8720.376     8727.920     8949.822
+173  TPM2+F+I+G4   4310.188     50  8720.376     8727.920     8949.822
+186  K3Pu+F+I+G4   4319.389     50  8738.778     8746.322     8968.224
+199  K3P+I+G4      4327.989     47  8749.979     8756.624     8965.658
+212  TN+F+I+G4     4319.258     50  8738.516     8746.060     8967.962
+225  TNe+I+G4      4325.137     47  8744.274     8750.919     8959.954
+238  HKY+F+I+G4    4319.417     49  8736.833     8744.071     8961.691
+251  K2P+I+G4      4328.020     46  8748.040     8754.399     8959.131
+264  F81+F+I+G4    4522.284     48  9140.569     9147.507     9360.837
+277  JC+I+G4       4505.164     45  9100.329     9106.408     9306.831
+Akaike Information Criterion:           TVM+F+I+G4
+Corrected Akaike Information Criterion: TVM+F+I+G4
+Bayesian Information Criterion:         TVMe+I+G4
+Best-fit model: TVM+F+I+G4 chosen according to AICc
+
+All model information printed to C:\iqtree-2.1.1-Windows\bin\Bartonella_ftsZ_sequences_MAFFT-L-INS-i_GB.fasta.model.gz
+CPU time for ModelFinder: 2.984 seconds (0h:0m:2s)
+Wall-clock time for ModelFinder: 3.303 seconds (0h:0m:3s)
+Generating 1000 samples for ultrafast bootstrap (seed: 978971)...
+
+NOTE: 1 MB RAM (0 GB) is required!
+Estimate model parameters (epsilon = 0.100)
+Thoroughly optimizing +I+G parameters from 10 start values...
+Init pinv, alpha: 0.000, 1.065 / Estimate: 0.000, 0.189 / LogL: -4315.273
+Init pinv, alpha: 0.066, 1.065 / Estimate: 0.063, 0.215 / LogL: -4316.060
+Init pinv, alpha: 0.133, 1.065 / Estimate: 0.136, 0.254 / LogL: -4316.439
+Init pinv, alpha: 0.199, 1.065 / Estimate: 0.222, 0.311 / LogL: -4315.716
+Init pinv, alpha: 0.266, 1.065 / Estimate: 0.528, 1.065 / LogL: -4305.828
+Init pinv, alpha: 0.332, 1.065 / Estimate: 0.529, 1.077 / LogL: -4305.813
+Init pinv, alpha: 0.399, 1.065 / Estimate: 0.529, 1.069 / LogL: -4305.824
+Init pinv, alpha: 0.465, 1.065 / Estimate: 0.527, 1.059 / LogL: -4305.845
+Init pinv, alpha: 0.532, 1.065 / Estimate: 0.534, 1.121 / LogL: -4305.781
+Init pinv, alpha: 0.598, 1.065 / Estimate: 0.543, 1.232 / LogL: -4305.789
+Optimal pinv,alpha: 0.534, 1.121 / LogL: -4305.781
+
+Parameters optimization took 1.869 sec
+Computing ML distances based on estimated model parameters...
+Computing ML distances took 0.025389 sec (of wall-clock time) 0.015625 sec(of CPU time)
+Computing RapidNJ tree took 0.000254 sec (of wall-clock time) 0.000000 sec (of CPU time)
+Log-likelihood of RapidNJ tree: -4322.885
+--------------------------------------------------------------------
+|             INITIALIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+Generating 98 parsimony trees... 0.287 second
+Computing log-likelihood of 98 initial trees ... 0.369 seconds
+Current best score: -4305.781
+
+Do NNI search on 20 best initial trees
+Estimate model parameters (epsilon = 0.100)
+BETTER TREE FOUND at iteration 1: -4305.769
+Iteration 10 / LogL: -4312.137 / Time: 0h:0m:3s
+Iteration 20 / LogL: -4312.139 / Time: 0h:0m:3s
+Finish initializing candidate tree set (20)
+Current best tree score: -4305.769 / CPU time: 1.866
+Number of iterations: 20
+--------------------------------------------------------------------
+|               OPTIMIZING CANDIDATE TREE SET                      |
+--------------------------------------------------------------------
+BETTER TREE FOUND at iteration 25: -4305.769
+BETTER TREE FOUND at iteration 28: -4305.766
+Iteration 30 / LogL: -4305.766 / Time: 0h:0m:4s (0h:0m:14s left)
+Iteration 40 / LogL: -4306.792 / Time: 0h:0m:4s (0h:0m:11s left)
+Iteration 50 / LogL: -4305.776 / Time: 0h:0m:5s (0h:0m:8s left)
+Log-likelihood cutoff on original alignment: -4332.850
+Iteration 60 / LogL: -4305.766 / Time: 0h:0m:6s (0h:0m:6s left)
+Iteration 70 / LogL: -4305.768 / Time: 0h:0m:6s (0h:0m:5s left)
+Iteration 80 / LogL: -4305.767 / Time: 0h:0m:7s (0h:0m:4s left)
+Iteration 90 / LogL: -4306.793 / Time: 0h:0m:7s (0h:0m:3s left)
+Iteration 100 / LogL: -4305.768 / Time: 0h:0m:8s (0h:0m:2s left)
+Log-likelihood cutoff on original alignment: -4331.770
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.989
+NOTE: UFBoot does not converge, continue at least 100 more iterations
+Iteration 110 / LogL: -4307.899 / Time: 0h:0m:8s (0h:0m:7s left)
+Iteration 120 / LogL: -4305.768 / Time: 0h:0m:9s (0h:0m:6s left)
+Iteration 130 / LogL: -4305.767 / Time: 0h:0m:9s (0h:0m:5s left)
+Iteration 140 / LogL: -4305.767 / Time: 0h:0m:10s (0h:0m:4s left)
+Iteration 150 / LogL: -4305.768 / Time: 0h:0m:11s (0h:0m:3s left)
+Log-likelihood cutoff on original alignment: -4331.770
+Iteration 160 / LogL: -4305.768 / Time: 0h:0m:11s (0h:0m:2s left)
+Iteration 170 / LogL: -4305.766 / Time: 0h:0m:12s (0h:0m:2s left)
+Iteration 180 / LogL: -4305.768 / Time: 0h:0m:13s (0h:0m:1s left)
+Iteration 190 / LogL: -4305.767 / Time: 0h:0m:13s (0h:0m:0s left)
+Iteration 200 / LogL: -4305.766 / Time: 0h:0m:14s (0h:0m:0s left)
+Log-likelihood cutoff on original alignment: -4332.428
+NOTE: Bootstrap correlation coefficient of split occurrence frequencies: 0.993
+TREE SEARCH COMPLETED AFTER 200 ITERATIONS / Time: 0h:0m:14s
+
+--------------------------------------------------------------------
+|                    FINALIZING TREE SEARCH                        |
+--------------------------------------------------------------------
+Performs final model parameters optimization
+Estimate model parameters (epsilon = 0.010)
+1. Initial log-likelihood: -4305.766
+Optimal log-likelihood: -4305.761
+Rate parameters:  A-C: 2.07621  A-G: 7.99817  A-T: 1.74819  C-G: 0.00010  C-T: 7.99817  G-T: 1.00000
+Base frequencies:  A: 0.236  C: 0.182  G: 0.289  T: 0.293
+Proportion of invariable sites: 0.537
+Gamma shape alpha: 1.151
+Parameters optimization took 1 rounds (0.036 sec)
+BEST SCORE FOUND : -4305.761
+Creating bootstrap support values...
+Split supports printed to NEXUS file C:\iqtree-2.1.1-Windows\bin\Bartonella_ftsZ_sequences_MAFFT-L-INS-i_GB.fasta.splits.nex
+Total tree length: 2.478
+
+Total number of iterations: 200
+CPU time used for tree search: 11.984 sec (0h:0m:11s)
+Wall-clock time used for tree search: 12.742 sec (0h:0m:12s)
+Total CPU time used: 13.953 sec (0h:0m:13s)
+Total wall-clock time used: 15.081 sec (0h:0m:15s)
+
+Computing bootstrap consensus tree...
+Reading input file C:\iqtree-2.1.1-Windows\bin\Bartonella_ftsZ_sequences_MAFFT-L-INS-i_GB.fasta.splits.nex...
+23 taxa and 449 splits.
+Consensus tree written to C:\iqtree-2.1.1-Windows\bin\Bartonella_ftsZ_sequences_MAFFT-L-INS-i_GB.fasta.contree
+Reading input trees file C:\iqtree-2.1.1-Windows\bin\Bartonella_ftsZ_sequences_MAFFT-L-INS-i_GB.fasta.contree
+Log-likelihood of consensus tree: -4305.771
+
+Analysis results written to: 
+  IQ-TREE report:                C:\iqtree-2.1.1-Windows\bin\Bartonella_ftsZ_sequences_MAFFT-L-INS-i_GB.fasta.iqtree
+  Maximum-likelihood tree:       C:\iqtree-2.1.1-Windows\bin\Bartonella_ftsZ_sequences_MAFFT-L-INS-i_GB.fasta.treefile
+  Likelihood distances:          C:\iqtree-2.1.1-Windows\bin\Bartonella_ftsZ_sequences_MAFFT-L-INS-i_GB.fasta.mldist
+
+Ultrafast bootstrap approximation results written to:
+  Split support values:          C:\iqtree-2.1.1-Windows\bin\Bartonella_ftsZ_sequences_MAFFT-L-INS-i_GB.fasta.splits.nex
+  Consensus tree:                C:\iqtree-2.1.1-Windows\bin\Bartonella_ftsZ_sequences_MAFFT-L-INS-i_GB.fasta.contree
+  Screen log file:               C:\iqtree-2.1.1-Windows\bin\Bartonella_ftsZ_sequences_MAFFT-L-INS-i_GB.fasta.log
+
+Date and Time: Sun Oct 04 11:52:49 2020
