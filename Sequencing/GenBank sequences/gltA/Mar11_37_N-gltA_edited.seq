@@ -1,0 +1,22 @@
+"Mar11_N-gltA_37" (1,368)
+  Contig Length:                  368 bases
+  Average Length/Sequence:        342 bases
+  Total Sequence Length:          685 bases
+  Top Strand:                       1 sequences
+  Bottom Strand:                    1 sequences
+  Total:                            2 sequences
+FEATURES             Location/Qualifiers
+     contig          1..368
+                     /Note="Mar11_N-gltA_37(1>368)"
+                     /dnas_scaffold_ID="0"
+                     /dnas_scaffold_POS="0"
+     coverage_once   1..21
+                     /Note="Only_once"
+     coverage_once   339..368
+                     /Note="Only_once"
+     coverage_below  1..368
+                     /Note="Below threshold"
+     source          1..368
+                     /dnas_title="Mar11_37_N-gltA_edited"
+^^
+ATGGTGGAGcAAATGAAGcATGCCTAAAAATGCTGCaAGAAATAGGTTCTATTAAAAAAATACCCAAATTTATTGAACGTGCTAAAGATAAAAATGATCCATTCCGTCTAATGGGTTTTGGACATAGGATATATAGGAATTATGATCCACGTGCAAAAATTATGCAACAAACTTGCTATGAAGTACTGAAGGAACTAGGCACGCAGGATGATCCACTTTTTAAAATTGCTATGGAACTGGAAAAGATTGCTCTTAGTGATGAATATTTCATTGAGAAAAAACTTTATCCAAATGTTGATTTTTACTCGGGAATTACTCTAAAAGCACTAAAGTTtCCTACGAATATGTTTACTgTTCCTTTTGCATta

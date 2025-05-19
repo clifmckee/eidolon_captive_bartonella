@@ -1,0 +1,22 @@
+"Sep10_ITS_12" (1,335)
+  Contig Length:                  335 bases
+  Average Length/Sequence:        300 bases
+  Total Sequence Length:          600 bases
+  Top Strand:                       1 sequences
+  Bottom Strand:                    1 sequences
+  Total:                            2 sequences
+FEATURES             Location/Qualifiers
+     contig          1..335
+                     /Note="Sep10_ITS_12(1>335)"
+                     /dnas_scaffold_ID="0"
+                     /dnas_scaffold_POS="0"
+     coverage_once   1..31
+                     /Note="Only_once"
+     coverage_once   297..335
+                     /Note="Only_once"
+     coverage_below  1..335
+                     /Note="Below threshold"
+     source          1..335
+                     /dnas_title="Sep10_12_ITS_edited"
+^^
+TCTTCAGATGATGATCCCAAGCCTTcTGGCGCTTGCAGGAACTTATCCGAATTTGTTTTTTCGGGAAGGAACTTTTCTATTTTATAAGTATATGCTGGAGAAGGTTATCTGGTTTGCCCCGGAGGGCTTGTAGCTCAGTTGGTTAGAGCGCGCGCTTGATAAGCGTGAGGTCGGAGGTTCAAGTCCTCCCAGGCCCACCATTTATAAGTGCTTATGACGGTTTTTTGTATAGGGGTTTGTATTTTTTATTGAGAATACATCTTTTATGGTTTTATGCCCTTAGCTATTATGGGGCCGTAGCTCAGCTGGGAGAGCACCTGCTTTGCAAGCAGGGG

@@ -1,0 +1,22 @@
+"Jul10_N-gltA_42" (1,367)
+  Contig Length:                  367 bases
+  Average Length/Sequence:        339 bases
+  Total Sequence Length:          678 bases
+  Top Strand:                       1 sequences
+  Bottom Strand:                    1 sequences
+  Total:                            2 sequences
+FEATURES             Location/Qualifiers
+     contig          1..367
+                     /Note="Jul10_N-gltA_42(1>367)"
+                     /dnas_scaffold_ID="0"
+                     /dnas_scaffold_POS="0"
+     coverage_once   1..44
+                     /Note="Only_once"
+     coverage_once   356..367
+                     /Note="Only_once"
+     coverage_below  1..367
+                     /Note="Below threshold"
+     source          1..367
+                     /dnas_title="Jul10_42_N-gltA_edited"
+^^
+tgGGGACCAgCTCATGGTGGAGCAAATGAAGCCTGCCTGAAAATGCTACAaGAAATAGGTTCTATTAAAAAAATCCCCCAATTTATCGAACGTGgCTAAAGATAAAAACGACCCGTTCCGTCTTATGGGTTTCGGACATAGAATCTATAGAAATTATGATCCACGTGCAAAAATTATGCAACAGACTTGCTATGAAGTATTAAAAGAATTAGGTGCGCAGGATGATCCACTTTTTAAAATTGCAATGGAATTAGAAAAAATCGCTCTAAGTGATGAATATTTTATTGAGAAAAAACTTTACCCAAATGTTGATTTTTACTCTGGAATTACTCTAAAAGCACTTCAATTTCCTACTAATATGTTTACT

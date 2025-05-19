@@ -1,0 +1,21 @@
+"Mar10_17Jan12_flies_N-gltA_8" (1,378)
+  Contig Length:                  378 bases
+  Average Length/Sequence:        335 bases
+  Total Sequence Length:          670 bases
+  Top Strand:                       1 sequences
+  Bottom Strand:                    1 sequences
+  Total:                            2 sequences
+FEATURES             Location/Qualifiers
+     contig          1..378
+                     /Note="Mar10_17Jan12_flies_N-gltA_8(1>378)"
+                     /dnas_scaffold_ID=0
+                     /dnas_scaffold_POS=0
+     coverage_once   1..45
+                     /Note="Only_once"
+     coverage_once   338..378
+                     /Note="Only_once"
+     coverage_below  1..378
+                     /Note="Below threshold"
+
+^^
+tgGGGACCAGCTCATGGTGGTGCAAATGAAGCATGTTTGAATATGTTAAGTTCTATTGGTTCTGTAAAGCAAATTCCTAAATTTATTGAACGTGCTAAAGATAAAAATGATTCTTTTCGTTTAATGGGATTTGGTCATAGAGTTTATAAAAATTATGATCCTCGTGCTATACTAATGCGGGAAACATGCCATGAAGTATTACACGCACTTAATGTAAAAGATACTTTATTAGATGTAGCAATGGAATTAGAACATATTGCTTTAAATGACTCATATTTTATTGATAAAAAATTATACCCAAACATAGACTTTTATTCAGGAATTATCTTAAAAGCTATTGGTATTCCTACGTATATGTTTACTGTTCTTTTTGCATta

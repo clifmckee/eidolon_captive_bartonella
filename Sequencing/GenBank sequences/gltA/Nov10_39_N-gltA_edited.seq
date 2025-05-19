@@ -1,0 +1,22 @@
+"Nov10_N-gltA_39" (1,368)
+  Contig Length:                  368 bases
+  Average Length/Sequence:        342 bases
+  Total Sequence Length:          684 bases
+  Top Strand:                       1 sequences
+  Bottom Strand:                    1 sequences
+  Total:                            2 sequences
+FEATURES             Location/Qualifiers
+     contig          1..368
+                     /Note="Nov10_N-gltA_39(1>368)"
+                     /dnas_scaffold_ID="0"
+                     /dnas_scaffold_POS="0"
+     coverage_once   1..25
+                     /Note="Only_once"
+     coverage_once   342..368
+                     /Note="Only_once"
+     coverage_below  1..368
+                     /Note="Below threshold"
+     source          1..368
+                     /dnas_title="Nov10_39_N-gltA_edited"
+^^
+AtGtGGaGCAAATGAAGCATGCCTAAAAATGCTACaAGAAATAGGCTCTATTAAAAAAATACCCAAATTTATTGAACGTGCTAAAGATAAAAAGGATCCATTTCGTCTTATGGGTTTCGGACATAGAATATATAGAAATTATGATCCACGTGCGAAGATTATGCAACAAACTTGTTATGAAGTACTAAAAGAACTAGGTGCACAGGATGATCCACTTTTTAAAATTGCCATGGAACTGGAAAAGATCGCTCTAAGTGATGATTATTTCATTGAGAAAAAACTTTATCCAAATGTTGATTTTTACTCAGGGATTACCCTAAAAGCcAtCTAAAATTTCCtACTAACATGTTTACTGTTcTTTTTGCATt

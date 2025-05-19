@@ -1,0 +1,22 @@
+"40" (1,382)
+  Contig Length:                  382 bases
+  Average Length/Sequence:        349 bases
+  Total Sequence Length:          698 bases
+  Top Strand:                       1 sequences
+  Bottom Strand:                    1 sequences
+  Total:                            2 sequences
+FEATURES             Location/Qualifiers
+     contig          1..382
+                     /Note="40(1>382)"
+                     /dnas_scaffold_ID="0"
+                     /dnas_scaffold_POS="0"
+     coverage_once   1..30
+                     /Note="Only_once"
+     coverage_once   347..382
+                     /Note="Only_once"
+     coverage_below  1..382
+                     /Note="Below threshold"
+     source          1..382
+                     /dnas_title="Jan10_R79_N-gltA"
+^^
+TSTATGCAAAAAAAACAGTAAACATTTCTGTAGGAaaGCccaAAGCTTTTAATGTTATACCAGAGTAGAAATCGACATTAGGATAAAGTTTTTTCTCGATAAAATATTTATCATTGAGAGCAATTTTTTCAAGTTCTATAGCAATATCAAGAAGTGGATCATCTTGTATATTCAATTCTTTCAGAACTTCATGGCAAGTTTTTTGCATAATTTTTGCACGTGGATCATAATTCTTATAAACTCTGTGGCCAAATCCCATGAGACGGAATGAATCGTTTTTGTTCTTTGCACGTGCTATAAATTCAGGGATATTTTTAACAGAACCTATTTCTtGTAGCATTttCAAGCATGCTTCATTAGCTCCACCATGGCCTGGTCCCMY

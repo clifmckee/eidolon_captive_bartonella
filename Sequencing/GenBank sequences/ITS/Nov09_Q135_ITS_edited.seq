@@ -1,0 +1,21 @@
+"Nov09_Q135_ITS" (1,344)
+  Contig Length:                  344 bases
+  Average Length/Sequence:        299 bases
+  Total Sequence Length:          598 bases
+  Top Strand:                       1 sequences
+  Bottom Strand:                    1 sequences
+  Total:                            2 sequences
+FEATURES             Location/Qualifiers
+     contig          1..344
+                     /Note="Nov09_Q135_ITS(1>344)"
+                     /dnas_scaffold_ID=0
+                     /dnas_scaffold_POS=0
+     coverage_once   1..39
+                     /Note="Only_once"
+     coverage_once   294..344
+                     /Note="Only_once"
+     coverage_below  1..344
+                     /Note="Below threshold"
+
+^^
+CAGATGAAtGATCCCAAGCCTTCTGGCGCTTGCAGGAACTTATCCGaATTTGTTTTTTCGGGAAGGAACTTTTCTATTTTATAAGTATATGCTGGAGAAGGTTATCTGGTTTGCCCCGGAGGGCTTGTAGCTCAGTTGGTTAGAGCGCGCGCTTGATAAGCGTGAGGTCGGAGGTTCAAGTCCTCCCAGGCCCACCATTTATAAGTGCTTATGACGGTTTTTTGTATAGGGGTTTGTATTTTTTATTGAGAATACATCTTTTATGGTTTTATGCCCTTAGCTATTATGGGGCCGTAGCTCAGCTGGGAGAGCACCTGCTTTGCAAGCAGGGGGTCGTCGGTTCA

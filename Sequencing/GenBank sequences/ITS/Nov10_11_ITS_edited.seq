@@ -1,0 +1,22 @@
+"Nov10_ITS_11" (1,332)
+  Contig Length:                  332 bases
+  Average Length/Sequence:        292 bases
+  Total Sequence Length:          584 bases
+  Top Strand:                       1 sequences
+  Bottom Strand:                    1 sequences
+  Total:                            2 sequences
+FEATURES             Location/Qualifiers
+     contig          1..332
+                     /Note="Nov10_ITS_11(1>332)"
+                     /dnas_scaffold_ID="0"
+                     /dnas_scaffold_POS="0"
+     coverage_once   1..67
+                     /Note="Only_once"
+     coverage_once   320..332
+                     /Note="Only_once"
+     coverage_below  1..332
+                     /Note="Below threshold"
+     source          1..332
+                     /dnas_title="Nov10_11_ITS_edited"
+^^
+TgAACCGACGGcCCCCTGCTTGCAAAGCtAGGTGCTCTCCCAGCTGAGCTACGGCCCCATAATAGCTAAGGGCATAAAACCATAAAAGATGTATTCTCAATAAAAAATACAAACCCCTATACAAAAAACCGTCATAAGCACTTATAAATGGTGGGCCTGGGAGGACTTGAACCTCCGACCTCACGCTTATCAAGCGCGCGCTCTAACCAACTGAGCTACAAGCCCTCCGGGGCAAACCAGATAACCTTCTCCAGCATATACTTATAAAATAGAAAAGTTCCTTCCCGAAAAAACAAATtCGGATAAGTTCCTGCAAGCGCCAgAAGGCTtGG

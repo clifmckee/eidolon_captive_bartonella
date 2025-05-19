@@ -1,0 +1,21 @@
+"Mar10_49_N-gltA" (1,354)
+  Contig Length:                  354 bases
+  Average Length/Sequence:        330 bases
+  Total Sequence Length:          660 bases
+  Top Strand:                       1 sequences
+  Bottom Strand:                    1 sequences
+  Total:                            2 sequences
+FEATURES             Location/Qualifiers
+     contig          1..354
+                     /Note="Mar10_49_N-gltA(1>354)"
+                     /dnas_scaffold_ID=0
+                     /dnas_scaffold_POS=0
+     coverage_once   1..37
+                     /Note="Only_once"
+     coverage_once   344..354
+                     /Note="Only_once"
+     coverage_below  1..354
+                     /Note="Below threshold"
+
+^^
+TCATgGTGGAGCAAATGAAGCCtGCCTGAAAATGCTACAAGAAATAGGTTCTATTAAAAAAATCCCCcAATTTATCgAACGTGCTAAAGATAAAAACGACCCGTTCCGTCTTATGGgTTTCGGACATAGAATGTATAGAAATTaTGATCCACGTGCAAAAATtATGCAACAGACTTGCTATGAAGTATTAAAAGAATTAGGTGCGCAGGATGATCCACTTTTTAAAATTGCAATGGAATTAGAAAAAATCGCTCTAAGTGATGAATATTTTATTGAGAAAAAACTTTACCCAAATGTTGATTTTTACTCTGGAATTACTCTAAAAGCACTTCAATTTCCTACTAATATGTTTAC

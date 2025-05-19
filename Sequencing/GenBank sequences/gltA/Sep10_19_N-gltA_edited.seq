@@ -1,0 +1,22 @@
+"Sep10_N-gltA_19" (1,383)
+  Contig Length:                  383 bases
+  Average Length/Sequence:        350 bases
+  Total Sequence Length:          701 bases
+  Top Strand:                       1 sequences
+  Bottom Strand:                    1 sequences
+  Total:                            2 sequences
+FEATURES             Location/Qualifiers
+     contig          1..382
+                     /Note="Sep10_N-gltA_19(1>383)"
+                     /dnas_scaffold_ID="0"
+                     /dnas_scaffold_POS="0"
+     coverage_once   1..31
+                     /Note="Only_once"
+     coverage_once   349..382
+                     /Note="Only_once"
+     coverage_below  1..382
+                     /Note="Below threshold"
+     source          1..382
+                     /dnas_title="Sep10_19_N-gltA_edited"
+^^
+tAATGCAAAAAAgaACAGTAAACATATTCGTAGGAAACTTTAGTGCTTTTAGAGTAATTCCCGAGTAAAAATCAACATTTGGATAAAGTTTTTTCTCAATGAAATATTCATCACTAAGAGCAATCTTTTCCAGTTCCATAGCAATTTTAAAAAGTGGATCATCCTGCGTGCCTAGTTCCTTCAGTACTTCATAGCAAGTTTGTTGCATAATTTTTGCACGTGGATCATAATTCCTATATATCCTATGTCCAAAACCCATTAGACGGAATGGATCATTTTTATCTTTAGCACGTTCAATAAATTTGGGTATTTTTTTAATAGAACCTATTTCTtGCAGCATTTTTAGGCATGCTTCATTTGCTCCACCATGAGcTGGTCCCca

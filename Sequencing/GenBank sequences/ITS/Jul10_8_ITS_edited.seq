@@ -1,0 +1,22 @@
+"Jul10_ITS_8" (1,331)
+  Contig Length:                  331 bases
+  Average Length/Sequence:        289 bases
+  Total Sequence Length:          579 bases
+  Top Strand:                       1 sequences
+  Bottom Strand:                    1 sequences
+  Total:                            2 sequences
+FEATURES             Location/Qualifiers
+     contig          1..331
+                     /Note="Jul10_ITS_8(1>331)"
+                     /dnas_scaffold_ID="0"
+                     /dnas_scaffold_POS="0"
+     coverage_once   1..45
+                     /Note="Only_once"
+     coverage_once   294..331
+                     /Note="Only_once"
+     coverage_below  1..331
+                     /Note="Below threshold"
+     source          1..331
+                     /dnas_title="Jul10_8_ITS_edited"
+^^
+TGCTTGCAAAGCAGGTGCTCTCCCaGCTGAGCTACGGCCCCATAATAGCTAAGGGCATAAAACCATAAAAGATGTATTCTCAATAAAAAATACAAACCCCTATACAAAAAACCGTCATAAGCACTTATAAATGGTGGGCCTGGGAGGACTTGAACCTCCGACCTCACGCTTATCAAGCGCGCGCTCTAACCAACTGAGCTACAAGCCCTCCGGGGCAAACCAGATAACCTTCTCCAGCATATACTTATAAAATAGAAAAGTTCCTTCCCGAAAAAACAAATtCGGATAAGTTCCTGCAAGCGCCAGAAGGCTTGGGATCaTCATCTGAAGA

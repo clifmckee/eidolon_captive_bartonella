@@ -1,0 +1,22 @@
+"17Jan12_wild_bats_N-gltA_44" (1,379)
+  Contig Length:                  379 bases
+  Average Length/Sequence:        351 bases
+  Total Sequence Length:          703 bases
+  Top Strand:                       1 sequences
+  Bottom Strand:                    1 sequences
+  Total:                            2 sequences
+FEATURES             Location/Qualifiers
+     contig          1..379
+                     /Note="17Jan12_wild_bats_N-gltA_44(1>379)"
+                     /dnas_scaffold_ID="0"
+                     /dnas_scaffold_POS="0"
+     coverage_once   1..24
+                     /Note="Only_once"
+     coverage_once   349..379
+                     /Note="Only_once"
+     coverage_below  1..379
+                     /Note="Below threshold"
+     source          1..379
+                     /dnas_title="17Jan12_wild_bats_44_N-gltA_edited"
+^^
+GGGACCAGCTCATGGTGGAGCAAATGAAGCTTGCCTGAAaATGCTACAaGAAATAGGTTCTATTAAAAAAATCCCACAATTTATCGAACGTGCTAAAGATAAAAAAGACCCGTTCCGTCTTATGGGTTTTGGACATAGAATCTATAGAAATTATGATCCACGTGCAAAAATTATGCAACAGACTTGTTATGAAGTATTAAAAGAATTAGGTGCACAGGATGATCCACTTTTTAAAATTGCAATGGAATTAGAAAAAATCGCTCTAAGTGATGAATATTTTATTGAGAAAAAACTTTACCCAAATGTTGATTTTTACTCTGGAATTACTCTAAAGGCACTGCAATTTCCTACTAATATGTTTACTGTTcTTTTTGCATta
